@@ -1,0 +1,42 @@
+/////////LOGIN PAGE - START//////////
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('ptsans-regular-webfont.woff2') format('woff2'),
+         url('ptsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#LoginHeading{
+  font-family: "pt_sansregular" !important;
+  text-transform: uppercase !important;
+  color:"blue" !important;
+}
+
+
+
+
+
+
+
+
+/////////LOGIN PAGE - END//////////
+
+
+
+/////////REGISTER PAGE - START//////////
+
+
+
+
+
+
+
+
+
+
+
+
+/////////REGISTER PAGE - END//////////
