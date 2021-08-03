@@ -1,1 +1,51 @@
-{{ content_for_index }}
+{% layout 'password' %}
+
+<div class="custom_header">
+  <button class="btn" id="modalbtn">Open Modal</button>
+</div>
+
+<div class="custom_modal">
+  <div class="close-btn-container">
+    <span class="close" id="closebtn">x</span>
+  </div>
+  <div class="main">
+    <div class="container">
+      <h1 id="LoginHeading">MKOLA</h1>
+      <div class="header">
+        <h1>BE THE FIRST TO KNOW</h1>
+        <p>about our latest products and exclusive offers</p>
+      </div>
+      <form class="form">
+        <div class="form_control">
+          <label for="email">Email Address*</label>
+          <input name="email" type="text" placeholder="Email" />
+        </div>
+        <div class="two_form">
+          <div class="form_control">
+            <label for="gender">Shopping Prefrence*</label>
+            <div class="custom-select">
+              <select name="gender">
+                <option value="">Gender</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="form_control">
+            <label for="date">Date of Birth*</label>
+            <input name="date" type="date" placeholder="mm/dd/yyyy" />
+          </div>
+        </div>
+        <div class="two_form">
+          <button class="btn btn--secondary">No Thanks</button>
+          <button class="btn">Sign Up</button>
+        </div>
+      </form>
+      <p>
+        By signing up, you agree to Mkola's
+        <a href="#" class="link">Privacy Policy</a> and
+        <a href="#" class="link">Terms of Use</a>
+      </p>
+    </div>
+  </div>
+</div>
