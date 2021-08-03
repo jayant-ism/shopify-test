@@ -1,42 +1,135 @@
 /////////LOGIN PAGE - START//////////
 
 @font-face {
-    font-family: 'pt_sansregular';
-    src: url('ptsans-regular-webfont.woff2') format('woff2'),
-         url('ptsans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "pt_sansregular";
+  src: url("ptsans-regular-webfont.woff2") format("woff2"),
+    url("ptsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-#LoginHeading{
+#LoginHeading {
   font-family: "pt_sansregular" !important;
   text-transform: uppercase !important;
-  color:"blue" !important;
+  color: "blue" !important;
 }
 
+.custom_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.custom_modal {
+  display: none; /* Hidden by default */
+  background: #fff;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  transition: 0.2s ease-in-out;
+}
 
+.close-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 160px;
+  margin-top: 20px;
+}
 
+.close {
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 2.5px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
+.main {
+  /*   font-family: "pt_sansregular" !important; */
 
+  display: flex;
+  justify-content: center;
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  width: 760px;
+  gap: 30px;
+}
+
+.header {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 42px !important;
+  word-spacing: 12px;
+}
+.header p {
+  font-size: 28px !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 60px;
+  font-size: 24px;
+}
+
+.form input {
+  font-size: 24px;
+  width: 100%;
+  font-weight: 200px;
+  line-height: 1.5;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.two_form {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.two_form input {
+  width: 370px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.custom-select select {
+  width: 370px;
+  padding: 14px;
+  font-size: 24px;
+}
+
+.btn {
+  width: 370px;
+  text-transform: captalisz;
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: underline;
+}
 
 /////////LOGIN PAGE - END//////////
 
-
-
 /////////REGISTER PAGE - START//////////
-
-
-
-
-
-
-
-
-
-
-
 
 /////////REGISTER PAGE - END//////////
